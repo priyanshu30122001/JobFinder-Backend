@@ -13,3 +13,7 @@
  GET-/api/jobs/create-::1-Fri Jul 12 2024 21:02:54 GMT+0530 (India Standard Time)
  POST-/api/jobs/all-::1-Fri Jul 12 2024 21:45:29 GMT+0530 (India Standard Time)
  GET-/api/jobs/delete/669156958912b3f1d8bb60ad-::1-Fri Jul 12 2024 21:47:03 GMT+0530 (India Standard Time)
+ GET-/-::1-Sat Jul 13 2024 01:59:20 GMT+0530 (India Standard Time)
+ GET-/favicon.ico-::1-Sat Jul 13 2024 01:59:20 GMT+0530 (India Standard Time)
+ GET-/api/auth/login-::1-Sat Jul 13 2024 02:21:19 GMT+0530 (India Standard Time)
+ 
