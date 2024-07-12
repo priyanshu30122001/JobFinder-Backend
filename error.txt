@@ -1,0 +1,46 @@
+ReferenceError: user is not defined
+    at C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\routes\jobs\index.js:11:20
+    at Layer.handle [as handle_request] (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\index.js:47:12)
+ POST-/api/jobs/create-::1-Fri Jul 12 2024 21:07:53 GMT+0530 (India Standard Time)ReferenceError: user is not defined
+    at C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\routes\jobs\index.js:11:20
+    at Layer.handle [as handle_request] (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\index.js:47:12)
+ POST-/api/jobs/create-::1-Fri Jul 12 2024 21:10:11 GMT+0530 (India Standard Time)undefined
+ POST-/api/jobs/create-undefined-Fri Jul 12 2024 21:13:08 GMT+0530 (India Standard Time)ReferenceError: user is not defined
+    at C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\routes\jobs\index.js:11:20
+    at Layer.handle [as handle_request] (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\index.js:47:12)
+ POST-/api/jobs/create-::1-Fri Jul 12 2024 21:37:48 GMT+0530 (India Standard Time)ReferenceError: user is not defined
+    at C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\routes\jobs\index.js:11:20
+    at Layer.handle [as handle_request] (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\express\lib\router\index.js:47:12)
+ POST-/api/jobs/create-::1-Fri Jul 12 2024 21:38:18 GMT+0530 (India Standard Time)
