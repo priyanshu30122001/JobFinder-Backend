@@ -10,6 +10,10 @@ const jobSchema = new Schema({
         type:String,
         required:true
     },
+    location:{
+        type:String,
+        required:true
+    },
     position:{
         type:String,
         required:true
