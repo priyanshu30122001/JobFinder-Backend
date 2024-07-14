@@ -6,7 +6,7 @@ const { default: mongoose } = require("mongoose");
 // Create a job 
 router.post("/create" ,async(req,res,next)=>{
    try{
-    const {name,logo,position,salary,jobType,remote,description,about,skills,information} = req.body
+    const {name,logo,position,salary,jobType,remote,description,about,skills,information,location} = req.body
     const user = req.user;
     const userId = user._id;
     const skillsArray = skills.split(",").map(skill => skill.trim());
@@ -14,6 +14,7 @@ router.post("/create" ,async(req,res,next)=>{
       name,
       logo,
       position,
+      location,
       salary,
       jobType,
       remote,
@@ -78,7 +79,7 @@ router.patch("/update/:id",async(req,res,next)=>{
     if(!id){
       return res.status(403).send("wrong request");
     }
-    const {name,logo,position,salary,jobType,remote,description,about,skills,information} =req.body;
+    const {name,logo,position,salary,jobType,remote,description,about,skills,information,location} =req.body;
     const user = req.user;
     const userId = user._id;
     const defaultJob = await Job.findById(id);
@@ -96,7 +97,8 @@ router.patch("/update/:id",async(req,res,next)=>{
          description: description || defaultJob.description,
          about: about || defaultJob.about ,
          skills: skillsArray,
-         information: information || defaultJob.information
+         information: information || defaultJob.information,
+         location:location || defaultJob.location,
     },{new:true});
     res.status(200).json(job);
    }
