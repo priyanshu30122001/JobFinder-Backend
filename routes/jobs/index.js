@@ -66,7 +66,7 @@ router.get("/get/:id",async(req,res,next)=>{
 //get all jobs 
 router.get("/all",async(req,res,next)=>{
    try{
-      const jobs = await Job.find().select("name logo position");
+      const jobs = await Job.find().select("name logo position salary location joType skills remote");
       res.status(200).json(jobs)
    }catch(err){
       next(err);
