@@ -4,4 +4,97 @@ Error: secretOrPrivateKey must have a value
  POST-/api/auth/login-::1-Mon Jul 15 2024 03:05:00 GMT+0530 (India Standard Time)Error: secretOrPrivateKey must have a value
     at module.exports [as sign] (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\jsonwebtoken\sign.js:111:20)
     at C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\routes\auth\index.js:21:27
- POST-/api/auth/login-::1-Mon Jul 15 2024 03:05:20 GMT+0530 (India Standard Time)
+ POST-/api/auth/login-::1-Mon Jul 15 2024 03:05:20 GMT+0530 (India Standard Time)Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\routes\auth\index.js:21:27
+ POST-/api/auth/login-::1-Wed Jul 17 2024 19:29:48 GMT+0530 (India Standard Time)Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\routes\auth\index.js:21:27
+ POST-/api/auth/login-::1-Wed Jul 17 2024 19:31:26 GMT+0530 (India Standard Time)Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\routes\auth\index.js:21:27
+ POST-/api/auth/login-::1-Wed Jul 17 2024 19:32:01 GMT+0530 (India Standard Time)Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\routes\auth\index.js:21:27
+ POST-/api/auth/login-::1-Wed Jul 17 2024 19:40:36 GMT+0530 (India Standard Time)Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\routes\auth\index.js:21:27
+ POST-/api/auth/login-::1-Wed Jul 17 2024 19:44:51 GMT+0530 (India Standard Time)Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\routes\auth\index.js:21:27
+ POST-/api/auth/login-::1-Wed Jul 17 2024 19:45:34 GMT+0530 (India Standard Time)CastError: Cast to ObjectId failed for value "all" (type string) at path "_id" for model "JobSchema"
+    at SchemaObjectId.cast (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaType.applySetters (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaType.castForQuery (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at Query.cast (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at Query._castConditions (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\routes\jobs\index.js:59:17
+ GET-/api/jobs/get/all-::1-Wed Jul 17 2024 19:47:22 GMT+0530 (India Standard Time)CastError: Cast to ObjectId failed for value "all" (type string) at path "_id" for model "JobSchema"
+    at SchemaObjectId.cast (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaType.applySetters (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaType.castForQuery (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at Query.cast (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at Query._castConditions (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\routes\jobs\index.js:59:17
+ GET-/api/jobs/get/all-::1-Wed Jul 17 2024 19:47:40 GMT+0530 (India Standard Time)Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\routes\auth\index.js:21:27
+ POST-/api/auth/login/-::1-Wed Jul 17 2024 19:56:07 GMT+0530 (India Standard Time)Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\routes\auth\index.js:21:27
+ POST-/api/auth/login-::1-Wed Jul 17 2024 19:56:53 GMT+0530 (India Standard Time)Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\routes\auth\index.js:21:27
+ POST-/api/auth/login-::1-Wed Jul 17 2024 19:58:18 GMT+0530 (India Standard Time)Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\routes\auth\index.js:21:27
+ POST-/api/auth/login-::1-Wed Jul 17 2024 20:02:08 GMT+0530 (India Standard Time)Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\routes\auth\index.js:21:27
+ POST-/api/auth/login-::1-Wed Jul 17 2024 20:02:52 GMT+0530 (India Standard Time)Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\routes\auth\index.js:21:27
+ POST-/api/auth/login-::1-Wed Jul 17 2024 20:04:22 GMT+0530 (India Standard Time)Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\routes\auth\index.js:21:27
+ POST-/api/auth/login-::1-Wed Jul 17 2024 20:05:05 GMT+0530 (India Standard Time)Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\routes\auth\index.js:21:27
+ POST-/api/auth/login-::1-Wed Jul 17 2024 20:06:25 GMT+0530 (India Standard Time)Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\routes\auth\index.js:21:27
+ POST-/api/auth/login-::1-Wed Jul 17 2024 20:27:49 GMT+0530 (India Standard Time)Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at C:\Users\priya\Desktop\KAAAAAAM\react\Projects\backend\routes\auth\index.js:21:27
+ POST-/api/auth/login-::1-Wed Jul 17 2024 20:28:36 GMT+0530 (India Standard Time)undefined
+ GET-/api/jobs/all-::1-Wed Jul 17 2024 20:37:43 GMT+0530 (India Standard Time)undefined
+ GET-/api/jobs/all-::1-Wed Jul 17 2024 20:37:43 GMT+0530 (India Standard Time)undefined
+ GET-/api/jobs/all-::1-Wed Jul 17 2024 20:37:56 GMT+0530 (India Standard Time)undefined
+ GET-/api/jobs/all-::1-Wed Jul 17 2024 20:37:56 GMT+0530 (India Standard Time)undefined
+ GET-/api/jobs/all-::1-Wed Jul 17 2024 20:38:12 GMT+0530 (India Standard Time)undefined
+ GET-/api/jobs/all-::1-Wed Jul 17 2024 20:38:12 GMT+0530 (India Standard Time)undefined
+ GET-/api/jobs/all-::1-Wed Jul 17 2024 20:42:16 GMT+0530 (India Standard Time)undefined
+ GET-/api/jobs/all-::1-Wed Jul 17 2024 20:42:16 GMT+0530 (India Standard Time)undefined
+ GET-/api/jobs/all-::1-Wed Jul 17 2024 20:42:30 GMT+0530 (India Standard Time)undefined
+ GET-/api/jobs/all-::1-Wed Jul 17 2024 20:42:30 GMT+0530 (India Standard Time)undefined
+ GET-/api/jobs/all-::1-Wed Jul 17 2024 20:43:43 GMT+0530 (India Standard Time)undefined
+ GET-/api/jobs/all-::1-Wed Jul 17 2024 20:43:44 GMT+0530 (India Standard Time)undefined
+ GET-/api/jobs/all-::1-Wed Jul 17 2024 20:44:26 GMT+0530 (India Standard Time)undefined
+ GET-/api/jobs/all-::1-Wed Jul 17 2024 20:44:27 GMT+0530 (India Standard Time)undefined
+ GET-/api/jobs/all-::1-Wed Jul 17 2024 20:44:30 GMT+0530 (India Standard Time)undefined
+ GET-/api/jobs/all-::1-Wed Jul 17 2024 20:44:36 GMT+0530 (India Standard Time)undefined
+ GET-/api/jobs/all-::1-Wed Jul 17 2024 20:44:36 GMT+0530 (India Standard Time)undefined
+ GET-/api/jobs/all-::1-Wed Jul 17 2024 20:45:40 GMT+0530 (India Standard Time)undefined
+ GET-/api/jobs/all-::1-Wed Jul 17 2024 20:45:40 GMT+0530 (India Standard Time)undefined
+ GET-/api/jobs/all-::1-Wed Jul 17 2024 20:46:20 GMT+0530 (India Standard Time)undefined
+ GET-/api/jobs/all-::1-Wed Jul 17 2024 20:46:21 GMT+0530 (India Standard Time)undefined
+ GET-/api/jobs/all-::1-Wed Jul 17 2024 20:47:19 GMT+0530 (India Standard Time)undefined
+ GET-/api/jobs/all-::1-Wed Jul 17 2024 20:47:20 GMT+0530 (India Standard Time)
