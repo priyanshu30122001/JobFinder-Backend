@@ -17,7 +17,7 @@ app.use(cors({
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use("/api/auth",authRouter);
-app.use("/api/jobs",jobRoutes)
+app.use("/api/jobs", authMiddleware,jobRoutes)
 
 
 // middleware logs ever incoming requests and store these in atxt file 
