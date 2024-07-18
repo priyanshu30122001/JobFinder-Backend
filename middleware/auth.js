@@ -6,7 +6,8 @@ const User = require("../schemas/user");
 
 const authMiddleware = async(req,res,next)=>{
     try{
-         const token = localStorage.getItem("token");
+        const token = req.header("auth-token");
+        console.log(token);
         if(token){
          const verified = jwt.verify(token,process.env.JWT_SECRET);
             if(verified){
