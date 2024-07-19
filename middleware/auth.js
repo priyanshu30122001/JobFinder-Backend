@@ -8,6 +8,7 @@ const authMiddleware = async (req, res, next) => {
     try {
         console.log("In middleware");
         const token = req.headers["auth-token"];
+        //  const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Njk2ZTY1MmEzNWRmMTQxYWRjNjA0NWUiLCJpYXQiOjE3MjEzOTU3MTN9.pZBpS-TID5lEBus1KxexiLVCBZRaLSwQOulv_3DrLdM";
         console.log(token);
         if (token) {  // if token exists in header
             const verified = jwt.verify(token, process.env.JWT_SECRET);
