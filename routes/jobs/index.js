@@ -114,7 +114,7 @@ router.get("/filter/:skills", async(req,res,next)=>{
             return res.status(403).send("wrong request");
          }
          const skillsArray =  skills.split(",").map(skill=>skill.trim());
-         const jobs = await Job.find({skills: {$in: skillsArray }}).select("name logo position");
+         const jobs = await Job.find({skills: {$in: skillsArray }}).select("name logo position salary location jobType skills remote");
          res.status(200).json(jobs)
    }
    catch(err){
@@ -132,7 +132,7 @@ router.get("/search/:query",async (req, res, next)=>{
                  { jobType: { $regex: query, $options:'i' } },
                  { description: { $regex: query, $options:'i' } }
             ]
-         }).select(" name logo position");
+         }).select("name logo position salary location jobType skills remote");
          res.status(200).json(job);
    }
    catch(err){
